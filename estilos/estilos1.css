@@ -1,0 +1,124 @@
+.titulo h1 {
+  color: rgb(13, 161, 247);
+  font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+}
+
+.parrafos {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.2;
+}
+
+.titulo2 h1 {
+  font-size: 70px;
+  color: rgb(13, 161, 247);
+  text-align: center;
+}
+
+.titulo2 li {
+  font-size: 40px;
+  color: rgb(13, 161, 247);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1;
+}
+
+.galeria {
+font-size: 19px;
+margin-left: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagen1 {
+  margin-left: 30vw;
+  font-size: 30px;
+  margin-right:  26vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.proyecto2 li {
+  font-size: 40px;
+  color: rgb(13, 161, 247);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1;
+}
+
+.galeria2 {
+  font-size: 20px;
+  margin-left: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.galeria, .galeria2 {
+  text-align: center;
+}
+
+
+.imagen1 img,
+.imagen2 img {
+  max-width: 300px; 
+  width: 100%;       
+  height: auto;    
+  display: block;   
+  margin: 20px auto; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2); 
+}
+
+
+.imagen1 p,
+.texto2 p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.valores {
+  text-align: center;
+  padding: 30px;
+}
+
+.valores h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.valores table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.valores th, .valores td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.valores th {
+  background-color: #eaeaea;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
